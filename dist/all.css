@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* cssrest */
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .header{
+    width: 100%;
+    background-color: #650300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    margin: 10px;
+  }
+  .header ul{
+    width: 500px;
+    list-style:none;
+  }
+  .header ul li p{
+    /* color: #000; */
+  }
+  .header ul li a{
+    color: white;
+    text-decoration:none;
+  }
+  
+  /* 用專業的心，做專業的事 */
+  .item1{
+    background: #AA06010D;
+    margin: 0 auto;
+  }
+  .item1 h2{
+    line-height: 1.5;
+    font-size: 48px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color:#650300;
+    text-align: center;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    width: 255px;
+       margin-right: 15px;
+       margin-left: 15px;
+  }
+  li h3{
+    font-size: 24px;
+    line-height: 1.5;
+        color:#650300;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .im100{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .im100 img{
+    display: block;
+    align-items: center;
+  }
+  
+  li p{
+    font-size: 16px;
+    line-height: 1.5;
+    color:#000000;
+    padding: 5px;
+  }
+  
